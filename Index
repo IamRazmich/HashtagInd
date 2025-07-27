@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hashtag Industries</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <header>
+    <img src="assets/logo.png" alt="Hashtag Industries Logo" class="logo"/>
+    <h1>Hashtag Industries</h1>
+    <p>Where lifestyle meets convenience</p>
+  </header>
+
+  <section class="hero">
+    <h2>Premium Products & Services — All In One Place</h2>
+    <p>Speed. Quality. Customer-first.</p>
+  </section>
+
+  <section class="features">
+    <h2>What We Offer</h2>
+    <div class="feature-block">
+      <h3>The Boozeboys</h3>
+      <p>Online alcohol sales with free delivery and mobile bar services for events and functions.</p>
+    </div>
+    <div class="feature-block">
+      <h3>Hashtag Teez</h3>
+      <p>Supply and printing of promotional, fashion, and branded T-shirts.</p>
+    </div>
+    <div class="feature-block">
+      <h3>The Meat Broz</h3>
+      <p>Premium meat & braai packs delivered on time, ready for your next social gathering.</p>
+    </div>
+  </section>
+
+  <section class="catalog">
+    <h2>Product Preview</h2>
+    <div class="catalog-item">
+      <img src="https://via.placeholder.com/300x200?text=Boozeboys" alt="boozeboys">
+      <p>Alcohol Selection</p>
+    </div>
+    <div class="catalog-item">
+      <img src="https://via.placeholder.com/300x200?text=Hashtag+Teez" alt="teez">
+      <p>Branded T-Shirts</p>
+    </div>
+    <div class="catalog-item">
+      <img src="https://via.placeholder.com/300x200?text=Meat+Broz" alt="meatbroz">
+      <p>Braai Packs</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:mrazmich@gmail.com">mrazmich@gmail.com</a></p>
+    <p>Phone (ZIM): +263 719 116 323 / +263 784 933 185</p>
+    <p>Phone (RSA): +27 71 129 1842</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Hashtag Industries. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
