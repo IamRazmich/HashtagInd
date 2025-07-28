@@ -5,61 +5,95 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Hashtag Industries</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      line-height: 1.6;
       background-color: #fff8f0;
       color: #333;
     }
+
     header {
       background-color: #e65100;
       color: white;
-      padding: 2rem;
+      padding: 2rem 1rem;
       text-align: center;
     }
+
     .hero {
       background: #ffcc80;
-      padding: 2rem;
+      padding: 2rem 1rem;
       text-align: center;
     }
+
     .features, .catalog, .contact {
-      padding: 2rem;
-      max-width: 960px;
+      padding: 2rem 1rem;
+      max-width: 1000px;
       margin: auto;
     }
+
     .features .feature-block {
       background: #ffe0b2;
       padding: 1rem;
       margin: 1rem 0;
       border-left: 5px solid #e65100;
     }
+
     .catalog {
       display: flex;
+      flex-wrap: wrap;
       gap: 1rem;
       justify-content: space-between;
-      flex-wrap: wrap;
     }
+
     .catalog-item {
-      flex: 1;
+      flex: 1 1 calc(33% - 1rem);
       min-width: 280px;
       text-align: center;
     }
+
     .catalog-item img {
       width: 100%;
       height: auto;
       border: 1px solid #ddd;
     }
-    .contact a {
-      color: #e65100;
-      text-decoration: none;
-    }
+
     footer {
       background: #e65100;
       color: white;
       text-align: center;
       padding: 1rem;
       margin-top: 2rem;
+    }
+
+    .contact a {
+      color: #e65100;
+      text-decoration: none;
+    }
+
+    @media screen and (max-width: 768px) {
+      header, .hero, .features, .catalog, .contact {
+        padding: 1.5rem 1rem;
+      }
+
+      .catalog-item {
+        flex: 1 1 100%;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+
+      h3 {
+        font-size: 1.1rem;
+      }
     }
   </style>
 </head>
