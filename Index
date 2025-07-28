@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hashtag Industries</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background-color: #fff8f0;
+      color: #333;
+    }
+    header {
+      background-color: #e65100;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .hero {
+      background: #ffcc80;
+      padding: 2rem;
+      text-align: center;
+    }
+    .features, .catalog, .contact {
+      padding: 2rem;
+      max-width: 960px;
+      margin: auto;
+    }
+    .features .feature-block {
+      background: #ffe0b2;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-left: 5px solid #e65100;
+    }
+    .catalog {
+      display: flex;
+      gap: 1rem;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .catalog-item {
+      flex: 1;
+      min-width: 280px;
+      text-align: center;
+    }
+    .catalog-item img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ddd;
+    }
+    .contact a {
+      color: #e65100;
+      text-decoration: none;
+    }
+    footer {
+      background: #e65100;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
 
+  <header>
+    <h1>Hashtag Industries</h1>
+    <p>Where lifestyle meets convenience</p>
+  </header>
+
+  <section class="hero">
+    <h2>Premium Products & Services — All In One Place</h2>
+    <p>Speed. Quality. Customer-first.</p>
+  </section>
+
+  <section class="features">
+    <h2>What We Offer</h2>
+    <div class="feature-block">
+      <h3>The Boozeboys</h3>
+      <p>Online alcohol sales with free delivery and mobile bar services for events and functions.</p>
+    </div>
+    <div class="feature-block">
+      <h3>Hashtag Teez</h3>
+      <p>Supply and printing of promotional, fashion, and branded T-shirts.</p>
+    </div>
+    <div class="feature-block">
+      <h3>The Meat Broz</h3>
+      <p>Premium meat & braai packs delivered on time, ready for your next social gathering.</p>
+    </div>
+  </section>
+
+  <section class="catalog">
+    <h2>Product Preview</h2>
+    <div class="catalog-item">
+      <img src="https://via.placeholder.com/300x200?text=Boozeboys" alt="boozeboys">
+      <p>Alcohol Selection</p>
+    </div>
+    <div class="catalog-item">
+      <img src="https://via.placeholder.com/300x200?text=Hashtag+Teez" alt="teez">
+      <p>Branded T-Shirts</p>
+    </div>
+    <div class="catalog-item">
+      <img src="https://via.placeholder.com/300x200?text=Meat+Broz" alt="meatbroz">
+      <p>Braai Packs</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:mrazmich@gmail.com">mrazmich@gmail.com</a></p>
+    <p>Phone (ZIM): +263 719 116 323 / +263 784 933 185</p>
+    <p>Phone (RSA): +27 71 129 1842</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Hashtag Industries. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
